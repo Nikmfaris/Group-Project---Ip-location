@@ -1,7 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:iplocation/auth/log_or_reg.dart';
-import 'package:iplocation/pages/home_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
 
-      //home: HomePage(),
+      //me: HomePage(),
       home: const LogReg(),
 
       //MIGHT IMPLEMENT LATE

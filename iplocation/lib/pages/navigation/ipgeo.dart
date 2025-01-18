@@ -4,7 +4,6 @@ import 'package:http/http.dart' as http;
 import 'package:iplocation/components/my_textfield.dart';
 import 'dart:convert';
 import 'package:lottie/lottie.dart';
-import 'package:simple_animated_button/bouncing_button.dart';
 import 'package:simple_animated_button/elevated_layer_button.dart';
 
 class IpGeoPage extends StatefulWidget {
@@ -104,18 +103,19 @@ class _IpGeoPageState extends State<IpGeoPage> {
     final screenHeight = MediaQuery.of(context).size.height;
 
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blueAccent,
+      ),
       backgroundColor: Colors.blueAccent,
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
             children: <Widget>[
-              const SizedBox(height: 50),
-
               Padding(
                 padding: const EdgeInsets.only(left: 23.0, right: 23.0),
                 child: MyTextfield(
-                    hintText: "enter ip address here",
+                    hintText: "Enter IP address here",
                     obscureText: false,
                     controller: _controller),
               ),

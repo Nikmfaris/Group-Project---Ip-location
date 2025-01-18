@@ -1,9 +1,9 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:iplocation/pages/navigation/MapPage.dart';
-import 'package:iplocation/pages/navigation/MoneyPage.dart';
 import 'package:iplocation/pages/navigation/ProfilePage.dart';
 import 'package:iplocation/pages/navigation/ipgeo.dart';
+import 'package:iplocation/pages/navigation/PassGen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -18,14 +18,14 @@ class _HomePageState extends State<HomePage> {
   final List<Widget> _pages = [
     IpGeoPage(),
     MapPage(),
-    MoneyPage(),
+    PassGenPage(),
     ProfilePage(),
   ];
 
   final List<Color> _backgroundColors = [
     Colors.blueAccent,
-    Colors.greenAccent,
-    Colors.orangeAccent,
+    Colors.green,
+    Colors.purple,
     Colors.redAccent,
   ];
 
@@ -46,9 +46,9 @@ class _HomePageState extends State<HomePage> {
         index: _selectedIndex,
         height: 60.0,
         items: <Widget>[
-          Icon(Icons.event, size: 20),
-          Icon(Icons.map, size: 20),
-          Icon(Icons.monetization_on, size: 20),
+          Icon(Icons.pin_drop_outlined, size: 20),
+          Icon(Icons.perm_scan_wifi_rounded, size: 20),
+          Icon(Icons.password, size: 20),
           Icon(Icons.settings, size: 20),
         ],
         color: Colors.white,
