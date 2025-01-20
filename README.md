@@ -52,8 +52,14 @@ flutter pub add simple_animated_button
 | `flutter pub add simple_animated_button` | [simple_animated_button on pub.dev](https://pub.dev/packages/simple_animated_button/install) |
 
 
-# Features
+## Video Demonstration
 
+Watch the video below for a detailed demonstration of the app's features:
+
+<video width="320" height="240" controls>
+  <source src="Image/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 # App Features  
 
 
@@ -119,3 +125,6 @@ Easily encrypt your passwords using one of two methods:
 | <img src="Image\password.png" alt="Password Encryption Screen" width="200"/> |  
 
 This feature is perfect for enhancing password security and ensuring privacy.  
+
+---
+
