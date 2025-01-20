@@ -4,7 +4,6 @@ import 'package:iplocation/auth/auth.dart';
 import 'package:iplocation/components/my_button.dart';
 import 'package:iplocation/components/my_textfield.dart';
 import 'package:lottie/lottie.dart';
-import 'package:iplocation/pages/home_page.dart';
 
 class LoginPage extends StatefulWidget {
   final void Function()? onTap;

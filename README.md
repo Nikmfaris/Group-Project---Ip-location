@@ -1,14 +1,15 @@
 # Mobile Application Development  
 ## CSCI 4311
+[![Build Status](https://cdn.prod.website-files.com/5e0f1144930a8bc8aace526c/65dd9eb5aaca434fac4f1c7c_Build-Passing-brightgreen.svg)]()
 
-### Team Members  
+--- 
 ### Team Members  
 - **NIK MUHAMMAD FARIS FIRDAUS BIN NORAZMAN**  
    🎓 **Matric Number**: `2213935`  
-- **Hazrin**  
-   🎓 **Matric Number**: `H4ZR-67890`  
-- **Ziyad**  
-   🎓 **Matric Number**: `Z1Y-13579`  
+- **MUHAMAD HAZRIN FAHMI BIN ABD HALIM**  
+   🎓 **Matric Number**: `2213375`  
+- **MUHAMMAD ZIYAD FATHULLAH BIN MOHD YAZID**  
+   🎓 **Matric Number**: `2211191`  
 ---
 
 # Application Overview
@@ -49,3 +50,72 @@ flutter pub add simple_animated_button
 | `flutter pub add flutter_card_swiper` | [flutter_card_swiper on pub.dev](https://pub.dev/packages/flutter_card_swiper/install) |
 | `flutter pub add curved_navigation_bar` | [curved_navigation_bar on pub.dev](https://pub.dev/packages/curved_navigation_bar/install) |
 | `flutter pub add simple_animated_button` | [simple_animated_button on pub.dev](https://pub.dev/packages/simple_animated_button/install) |
+
+
+# Features
+
+# App Features  
+
+
+### 1. Login and Register Screens  
+
+The app starts with a **Login** page. New users can easily create an account via the **Register** page to access the app's features.
+
+| **Login** | **Register** |  
+| --------- | ------------ |  
+| <img src="Image\login.png" alt="Login Screen" width="200"/> | <img src="Image\register.png" alt="Register Screen" width="200"/> |  
+
+---
+
+### 2. IP Geolocation Screen  
+
+**Discover IP Details**  
+This feature enables users to retrieve detailed information about an IP address. It's a powerful tool for gaining insights into geographical and network-specific data.  
+
+| **IP Geolocation** |  
+| ------------------- |  
+| <img src="Image\ipgeo.png" alt="IP Geolocation Screen" width="200"/> |  
+
+#### API Used  
+We utilize the **IP Geolocation API** from [RapidAPI](https://rapidapi.com/xakageminato/api/ip-geolocation-ipwhois-io) for accurate and real-time information.  
+
+| <img src="Image\Api-ip.png" alt="API Integration for IP Geolocation" width="800"/> |  
+
+**Example Information Provided:**  
+
+- Country, Region, City, Latitude, Longitude, ISP
+
+### 3. Port Scanning  
+
+**Note**: This port scanning feature only works within the same network, whether the network is physical or virtual. It does not support scanning devices outside your local network.
+
+| **Port Scanning ** |  
+| ------------------- |  
+| <img src="Image\port.png" alt="IP Geolocation Screen" width="200"/> | 
+
+This page allows users to perform a **port scan** on a given IP address. It checks common ports like SSH (22), HTTP (80), HTTPS (443), and more to identify which are open.  
+
+- **Input an IP Address**: Type the IP address you want to scan.  
+- **Scan Ports**: Press the button to start scanning.  
+- **View Results**: Displays open ports and their corresponding services.  
+
+If no open ports are found, a message will let you know.  
+
+
+**this was tested on a real server with open ports**
+
+<img src="Image\port scan.png" alt="IP Geolocation Screen" width="2000"/>
+
+
+### 4. Password Encryption  
+
+**Secure Your Passwords**  
+Easily encrypt your passwords using one of two methods:  
+- **ROT13**: A simple and reversible cipher   
+- **SHA-1**: A cryptographic hash function for stronger, one-way encryption.  
+
+| **Password Encryption** |  
+| ------------------------ |  
+| <img src="Image\password.png" alt="Password Encryption Screen" width="200"/> |  
+
+This feature is perfect for enhancing password security and ensuring privacy.  

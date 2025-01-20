@@ -81,6 +81,13 @@ class _IpGeoPageState extends State<IpGeoPage> {
               child: Center(child: Text('Longitude: ${_data['longitude']}')),
             ),
           ),
+          Container(
+            height: 150, // Set the desired height
+            child: Card(
+              color: Colors.blue[700],
+              child: Center(child: Text('ISP: ${_data['isp']}')),
+            ),
+          ),
         ];
       });
     } else {
