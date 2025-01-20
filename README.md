@@ -56,10 +56,12 @@ flutter pub add simple_animated_button
 
 Watch the video below for a detailed demonstration of the app's features:
 
-<video width="320" height="240" controls>
-  <source src="Image/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+- video update soon 
+- or you can download it at image file
+- will update the video link later
+- [Watch video demonstration here !!](Image/video.mp4)
+
 
 # App Features  
 
